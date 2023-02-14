@@ -1,0 +1,33 @@
+,,,,,,,,,,,
+,CoT Portfolio Analysis Test,,,,,,,,,,
+,,,,,,,,,,,
+,Problem Statement:,,,,,,,,,,
+,"Customer Lifetime Value (LTV) or similar calculations are extremely useful when analysing a portfolio. It can inform how much money should be spent on marketing, how to price customers and how to design a communications strategy along with many other things.
+
+You have been provided with a dataset which shows some performance information for a subset of customers over a 12 month period (in the data tab). Each row represents one billing period for one customer. The dataset contains all the information required to build a basic LTV model.
+
+Please answer the questions below using any method you deem appropriate and communicate your findings as if they were being presented to the CEO in a short 15 min pitch",,,,,,,,,,
+,,,,,,,,,,,
+,Questions,,,,,,,,,,
+,"1. Breifly explain how you going to define LTV and apply it to the portfolio. You have total freedom to come up with a model that you think is the most representative / most useful
+
+2. What is the average LTV for a customer? How does this look when split by turnover?
+
+3. One of the most powerful way to increase portfolio LTV is to increase the credit limit on a subset of customers and this has been done several times in the past. The CFO tells you that you can raise limits on any customers you like but due to funding constraints we can only generate additional balances of £1,000,000. Which customers would you chose and what limit increases would you give them? How much additional monthly value would be generated? Also consider risks involved and margin of error.",,,,,,,,,,
+,,,,,,,,,,,
+,Further Information,,,,,,,,,,
+,"Below are details of how revenue, cost and churn are calculated:
+
+Revenue can be considered as: Interest + Interchange
+
+Interest = Average Balance in Billing Period * Interest Rate
+* If a customer pays in full (or over) the finance charge is 0
+Interchange = Card funding * 0.0163
+
+Cost can be considered as: Bad Debt + Cost of Capital
+
+Bad Debt = the outstanding balance when a customer does not pay back (Balance when Payment Status = 4)
+Cost of Capital = Average Balance in Billing Period * 0.0063
+
+Net Churn = (Customers gone inactive - Customers gone active) / active customers t-1month
+Active = Average Balance in Billing Period > 5",,,,,,,,,,
